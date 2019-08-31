@@ -1,0 +1,29 @@
+
+
+
+.titleContainer{
+    font-family: 'Poppins', sans-serif;
+    h1{
+        font-size: 90px;
+        margin: 0;
+        line-height: 1.1em;     
+    }
+    position: relative;
+    --maskX: 0;
+    --maskY: 50;
+}
+
+.titleWrapper {
+        color: #D4BBAB;
+        cursor: pointer;
+}
+
+
+.cloneWrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #f2dcca;
+        transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44,1);
+        clip-path: polygon(0 0, calc(var(--maskX) * 1%) 0, calc(var(--maskY) * 1%) 100%, 0 100%);
+}

@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+#btn{
+  font-style: italic;
+  color: red
+}
+#header{
+  color: rgb(105, 26, 26);
+}
